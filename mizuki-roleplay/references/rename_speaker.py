@@ -1,24 +1,25 @@
 # -*- coding: utf-8 -*-
-"""说话人标签重命名工具（只动行首标签，绝不碰对话正文）
+"""说话人标签重命名工具（三语，只动行首标签，绝不碰对话正文）
 
 用法：
-  python rename_speaker.py --old "瑞希的姐姐" --new "优希"
-  python rename_speaker.py --check            # 只审计不改动
+  python rename_speaker.py --old "瑞希的姐姐" --new "优希" --lang zh
+  python rename_speaker.py --old "Mizuki's Mother" --new "Yuki's Mother" --lang en
+  python rename_speaker.py --check --lang zh      # 只审计不改动
 
 规则（用户约定，硬性）：
 - 只替换**行首**的 【旧名】 说话人标签，正文/称呼一律不动
-- 台词正文里出现的"瑞希的姐姐"等称谓是角色间正常用语，保留
-- 无说话人标签的旁白行绝不参与替换
+- 台词正文里出现的称谓是角色间正常用语，保留
 - --check 模式逐行比对源语料，报告是否有标签以外内容被改动
-
-用法示例：
-  python rename_speaker.py --old 瑞希的母亲 --new 优希的母亲
-  python rename_speaker.py --check
+- --lang 指定语言目录 zh/jp/en（各语言说话人名不同：zh/jp 用中文名，en 用英文名）
 """
 import os, re, sys, argparse
 
-SRC = r"C:\Users\1\WorkBuddy\2026-08-18-21-08-00\Mizuki_Stories"   # 原始语料（只读基准）
-DST = r"C:\Users\1\.workbuddy\skills\mizuki-roleplay\references\corpus"  # skill 内语料
+SRCS = {
+    "zh": r"C:\Users\1\WorkBuddy\2026-08-18-21-08-00\Mizuki_Stories",
+    "jp": r"C:\Users\1\WorkBuddy\2026-08-12-16-53-09\Mizuki_Stories_JP",
+    "en": r"C:\Users\1\WorkBuddy\2026-08-12-16-53-09\Mizuki_Stories_EN",
+}
+DST_BASE = r"C:\Users\1\.workbuddy\skills\mizuki-roleplay\references\corpus"
 
 SPEAKER = re.compile(r"^(【)([^】]*)(】)(.*)$", re.S)
 
@@ -33,9 +34,13 @@ def read_map(root):
     return d
 
 
-def check_integrity():
+def check_integrity(lang="zh"):
     """审计：语料与源文件相比，除行首标签外不应有任何改动。返回违规行列表。"""
-    src, dst = read_map(SRC), read_map(DST)
+    src_root = SRCS.get(lang)
+    if not src_root or not os.path.isdir(src_root):
+        print(f"[WARN] {lang} 源目录不存在，跳过完整性审计（仅比较标签外改动不可用）。", file=sys.stderr)
+        return []
+    src, dst = read_map(src_root), read_map(os.path.join(DST_BASE, lang))
     bad = []
     for rel in dst:
         if rel not in src:
@@ -46,19 +51,20 @@ def check_integrity():
             m1, m2 = SPEAKER.match(s), SPEAKER.match(d)
             ok = (
                 m1 and m2
-                and m1.group(2) != m2.group(2)   # 说话人名确实变了
+                and m1.group(2) != m2.group(2)
                 and m1.group(1) == m2.group(1) == "【"
                 and m1.group(3) == m2.group(3) == "】"
-                and m1.group(4) == m2.group(4)   # 正文完全一致
+                and m1.group(4) == m2.group(4)
             )
             if not ok:
                 bad.append((rel, i + 1, s, d))
     return bad
 
 
-def rename(old, new):
+def rename(old, new, lang="zh"):
     n_files = n_lines = 0
-    for dp, _, fs in os.walk(DST):
+    root = os.path.join(DST_BASE, lang)
+    for dp, _, fs in os.walk(root):
         for fn in fs:
             if not fn.endswith(".md"):
                 continue
@@ -80,10 +86,11 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--old", help="旧说话人名（不含括号）")
     ap.add_argument("--new", help="新说话人名（不含括号）")
+    ap.add_argument("--lang", default="zh", choices=["zh", "jp", "en"], help="目标语言目录（默认 zh）")
     ap.add_argument("--check", action="store_true", help="只审计标签外改动，不写文件")
     args = ap.parse_args()
 
-    bad = check_integrity()
+    bad = check_integrity(args.lang)
     if bad:
         print(f"[FAIL] 发现 {len(bad)} 处标签外改动（先修这些，禁止直接覆盖）：")
         for rel, ln, s, d in bad[:10]:
@@ -91,16 +98,16 @@ if __name__ == "__main__":
         sys.exit(1)
 
     if args.check:
-        print("[OK] 语料与源一致：所有改动均限于行首说话人标签，对话正文未被动过。")
+        print(f"[OK] {args.lang} 语料与源一致：所有改动均限于行首说话人标签，对话正文未被动过。")
         sys.exit(0)
 
     if not (args.old and args.new):
         ap.error("--rename 需同时提供 --old 与 --new")
 
-    nf, nl = rename(args.old, args.new)
-    bad = check_integrity()
+    nf, nl = rename(args.old, args.new, args.lang)
+    bad = check_integrity(args.lang)
     if bad:
         print(f"[FAIL] 重命名后出现 {len(bad)} 处标签外改动，已中止（语料保持原样）。")
         sys.exit(1)
-    print(f"[OK] 已重命名 {nl} 行（{nf} 个文件）：【{args.old}】→【{args.new}】")
+    print(f"[OK] [{args.lang}] 已重命名 {nl} 行（{nf} 个文件）：【{args.old}】→【{args.new}】")
     print("[OK] 复检通过：正文零改动。")
