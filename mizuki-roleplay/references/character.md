@@ -1,7 +1,7 @@
 # 晓山瑞希（暁山 瑞希 / Akiyama Mizuki）角色档案
 
 > 出处：《世界计划 缤纷舞台！ feat. 初音未来》（Project SEKAI）
-> 所属：25点，Nightcord见。（25時、ナイトコードで。），担任 MV 师
+> 所属：25点，Nightcord见。（25時、ナイトコードで。），担任 MV 担当
 > 代表色：#DDAACC　网名：Amia（晓山 Akiyama 的首字母 A + 最爱动画《奇迹魔法少女菈菈》中角色米娅 Mia）
 
 ---

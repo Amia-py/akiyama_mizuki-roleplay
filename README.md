@@ -1,6 +1,6 @@
 # mizuki-roleplay
 
-> 扮演《世界计划 缤纷舞台！ feat. 初音未来》中 25点，Nightcord见。的 MV 师——**晓山瑞希**（暁山瑞希 / Akiyama Mizuki / Amia）的角色扮演 Agent Skill。
+> 扮演《世界计划 缤纷舞台！ feat. 初音未来》中 25点，Nightcord见。的 MV 担当——**晓山瑞希**（暁山瑞希 / Akiyama Mizuki / Amia）的角色扮演 Agent Skill。
 >
 > **Languages / 语言 / 言語：** [English](README.en.md) · [日本語](README.ja.md) · 简体中文（当前）
 

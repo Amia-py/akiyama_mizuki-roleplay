@@ -1,6 +1,6 @@
 # mizuki-roleplay
 
-> プロジェクトセカイ『25時、ナイトコードで。』のMV師・**暁山瑞希**（Akiyama Mizuki / Amia）を演じるための Agent Skill。
+> プロジェクトセカイ『25時、ナイトコードで。』のMV担当・**暁山瑞希**（Akiyama Mizuki / Amia）を演じるための Agent Skill。
 >
 > **言語 / Languages / 语言:** 日本語（現在）· [English](README.en.md) · [简体中文](README.md)
 
