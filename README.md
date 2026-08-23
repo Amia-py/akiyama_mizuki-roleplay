@@ -1,4 +1,4 @@
-# mizuki-roleplay
+# akiyama_mizuki-roleplay
 
 > 扮演《世界计划 缤纷舞台！ feat. 初音未来》中 25点，Nightcord见。的 MV 担当——**晓山瑞希**（暁山瑞希 / Akiyama Mizuki / Amia）的角色扮演 Agent Skill。
 >
@@ -19,12 +19,12 @@
 ## 📦 目录结构
 
 ```
-mizuki-roleplay/
+akiyama_mizuki-roleplay/
 ├── SKILL.md                      # 技能主文件
 ├── install.sh                    # Linux/macOS/WSL/GitBash 一键安装
 ├── install.ps1                   # Windows PowerShell 一键安装
 ├── LICENSE                       # AGPL-3.0
-└── mizuki-roleplay/
+└── akiyama_mizuki-roleplay/
     ├── SKILL.md
     └── references/
         ├── character.md          # 人设档案（+ character.en.md / character.ja.md）
@@ -58,10 +58,10 @@ powershell -ExecutionPolicy Bypass -File install.ps1
 | **WorkBuddy / CodeBuddy** | `~/.workbuddy/skills/` | `<项目>/.workbuddy/skills/` |
 | **Reasonix** | `~/.reasonix/skills/`（兼读 `~/.agents/skills/`） | `<项目>/.reasonix/skills/` |
 | **OpenCode** | `~/.config/opencode/skills/` | `<项目>/.opencode/skills/` |
-| **Hermes Agent** | 按官方文档（源码浏览型，把 `mizuki-roleplay/` 目录加入技能路径） | `skills/` |
+| **Hermes Agent** | 按官方文档（源码浏览型，把 `akiyama_mizuki-roleplay/` 目录加入技能路径） | `skills/` |
 | **DevEco Code** | 以官方文档为准（AI 技能/MCP 机制） | — |
 
-> 注意：目标路径必须是 `<skills目录>/mizuki-roleplay/SKILL.md`，**不要多套一层目录**。
+> 注意：目标路径必须是 `<skills目录>/akiyama_mizuki-roleplay/SKILL.md`，**不要多套一层目录**。
 
 ## 💬 使用
 
