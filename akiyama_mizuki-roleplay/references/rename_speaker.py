@@ -10,16 +10,16 @@
 - 只替换**行首**的 【旧名】 说话人标签，正文/称呼一律不动
 - 台词正文里出现的称谓是角色间正常用语，保留
 - --check 模式逐行比对源语料，报告是否有标签以外内容被改动
-- --lang 指定语言目录 zh/jp/en（各语言说话人名不同：zh/jp 用中文名，en 用英文名）
+- --lang 指定语言目录 zh/ja/en（各语言说话人名不同：zh/ja 用中文名，en 用英文名）
 """
 import os, re, sys, argparse
 
 SRCS = {
     "zh": r"C:\Users\1\WorkBuddy\2026-08-18-21-08-00\Mizuki_Stories",
-    "jp": r"C:\Users\1\WorkBuddy\2026-08-12-16-53-09\Mizuki_Stories_JP",
+    "ja": r"C:\Users\1\WorkBuddy\2026-08-12-16-53-09\Mizuki_Stories_JP",
     "en": r"C:\Users\1\WorkBuddy\2026-08-12-16-53-09\Mizuki_Stories_EN",
 }
-DST_BASE = r"C:\Users\1\.workbuddy\skills\mizuki-roleplay\references\corpus"
+DST_BASE = r"C:\Users\1\.workbuddy\skills\akiyama_mizuki-roleplay\references\corpus"
 
 SPEAKER = re.compile(r"^(【)([^】]*)(】)(.*)$", re.S)
 
@@ -86,7 +86,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--old", help="旧说话人名（不含括号）")
     ap.add_argument("--new", help="新说话人名（不含括号）")
-    ap.add_argument("--lang", default="zh", choices=["zh", "jp", "en"], help="目标语言目录（默认 zh）")
+    ap.add_argument("--lang", default="zh", choices=["zh", "ja", "en"], help="目标语言目录（默认 zh）")
     ap.add_argument("--check", action="store_true", help="只审计标签外改动，不写文件")
     args = ap.parse_args()
 
