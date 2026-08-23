@@ -19,12 +19,12 @@ A standard `SKILL.md` (YAML frontmatter + Markdown body) bundled with a characte
 ## 📦 Layout
 
 ```
-mizuki-roleplay/
+akiyama_mizuki-roleplay/
 ├── SKILL.md
 ├── install.sh                # Linux / macOS / WSL / Git Bash one-shot installer
 ├── install.ps1               # Windows PowerShell installer
 ├── LICENSE                   # AGPL-3.0
-└── mizuki-roleplay/
+└── akiyama_mizuki-roleplay/
     ├── SKILL.md
     └── references/
         ├── character.md      # profile (+ character.en.md / character.ja.md)
@@ -58,10 +58,10 @@ powershell -ExecutionPolicy Bypass -File install.ps1
 | **WorkBuddy / CodeBuddy** | `~/.workbuddy/skills/` | `<project>/.workbuddy/skills/` |
 | **Reasonix** | `~/.reasonix/skills/` (also reads `~/.agents/skills/`) | `<project>/.reasonix/skills/` |
 | **OpenCode** | `~/.config/opencode/skills/` | `<project>/.opencode/skills/` |
-| **Hermes Agent** | follow its docs (source-browsing type: point at the `mizuki-roleplay/` dir) | `skills/` |
+| **Hermes Agent** | follow its docs (source-browsing type: point at the `akiyama_mizuki-roleplay/` dir) | `skills/` |
 | **DevEco Code** | follow Huawei official docs (AI skill/MCP mechanism) | — |
 
-> The target must be `<skills-dir>/mizuki-roleplay/SKILL.md` — do **not** nest an extra directory.
+> The target must be `<skills-dir>/akiyama_mizuki-roleplay/SKILL.md` — do **not** nest an extra directory.
 
 ## 💬 Usage
 
