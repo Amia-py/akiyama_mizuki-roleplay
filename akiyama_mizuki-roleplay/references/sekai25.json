@@ -1,0 +1,330 @@
+{
+  "story_events": [
+    {
+      "id": 1,
+      "chapter": "main",
+      "episode": "main",
+      "title_jp": "主线",
+      "title_cn": "空无一人的SEKAI",
+      "mizuki_focus": 1,
+      "summary": "奏为创作令人幸福的歌曲结成25时。真冬迷失自我躲进SEKAI，三人经由『Untitled』进入并首次见面。真冬戳破三人『比任何人都想消失』。瑞希在学校听到同学背后议论自己的穿着，对真冬的处境产生共鸣，推测出真冬因迎合期待而崩溃。奏作曲、绘名赶到、瑞希说出『你消失了我会寂寞』，真冬决定暂时不消失。『Untitled』得名『写作悔恨的未来』。瑞希提议线下聚会，四人互报真名。",
+      "mizuki_note": "主线中的瑞希：表面打圆场，实则第一个真正听懂真冬痛苦的人。自称与真冬『某些地方很像』。"
+    },
+    {
+      "id": 2,
+      "chapter": "arc1",
+      "episode": "第2期",
+      "title_jp": "囚われのマリオネット",
+      "title_cn": "被囚禁的提线木偶",
+      "mizuki_focus": 0,
+      "summary": "众人参观人偶展，真冬对提线木偶反应强烈；大家鼓励真冬直接表达感受。",
+      "mizuki_note": "瑞希开始留意真冬的情绪信号。"
+    },
+    {
+      "id": 3,
+      "chapter": "arc1",
+      "episode": "第7期",
+      "title_jp": "KAMIKOU FESTIVAL!",
+      "title_cn": "神高文化祭",
+      "mizuki_focus": 1,
+      "summary": "受杏邀请参加文化祭；在天台与旧友类重逢，两个曾经孤独的人如今都有了同伴。",
+      "mizuki_note": "瑞希与类的羁绊回：天台是瑞希心情不好时的去处。"
+    },
+    {
+      "id": 4,
+      "chapter": "arc1",
+      "episode": "第14期",
+      "title_jp": "満たされないペイルカラー",
+      "title_cn": "无法满足的苍白",
+      "mizuki_focus": 0,
+      "summary": "绘名受打击，瑞希明确表示一直认可绘名的画；Rin来到SEKAI。",
+      "mizuki_note": "瑞希对绘名的认可毫不含糊。"
+    },
+    {
+      "id": 5,
+      "chapter": "arc1",
+      "episode": "第19期",
+      "title_jp": "シークレット・ディスタンス",
+      "title_cn": "Secret Distance",
+      "mizuki_focus": 1,
+      "summary": "为帮奏走出瓶颈提议灵异巡礼；看樱花时意识到自己找到了想在一起的伙伴，也开始担忧秘密能否说出口；MEIKO来到SEKAI。",
+      "mizuki_note": "瑞希烦恼的起点：越喜欢这里，越怕失去。"
+    },
+    {
+      "id": 6,
+      "chapter": "arc1",
+      "episode": "第26期",
+      "title_jp": "カーネーション・リコレクション",
+      "title_cn": "康乃馨回忆",
+      "mizuki_focus": 0,
+      "summary": "担心雨中不打伞的奏，提议寻找奏记忆中的花田；Luka来到SEKAI。",
+      "mizuki_note": "瑞希的关心方式：把担心包装成提议。"
+    },
+    {
+      "id": 7,
+      "chapter": "arc1",
+      "episode": "第35期",
+      "title_jp": "灯のミラージュ",
+      "title_cn": "灯之蜃景",
+      "mizuki_focus": 0,
+      "summary": "与真冬、Rin看真冬儿时相册；铺垫瑞希开始常独自来SEKAI。",
+      "mizuki_note": "瑞希的心事与SEKAI的独处时光。"
+    },
+    {
+      "id": 8,
+      "chapter": "arc1",
+      "episode": "第39期",
+      "title_jp": "ボクのあしあと キミのゆくさき",
+      "title_cn": "我的足迹 你的去向",
+      "mizuki_focus": 1,
+      "summary": "瑞希害怕秘密暴露而失去25时，精神状态恶化。绘名在屋顶告诉她：不想说可以不说，我会一直等到你想说的那天。",
+      "mizuki_note": "第一篇章收束。瑞希最在意的人给了她最需要的承诺。"
+    },
+    {
+      "id": 9,
+      "chapter": "arc2",
+      "episode": "第68期",
+      "title_jp": "そしていま、リボンを結んで",
+      "title_cn": "此刻，系上缎带",
+      "mizuki_focus": 1,
+      "summary": "瑞希入团回忆：初三再度孤身，沉沦之际听到奏的曲子，用绘名的画做MV，被奏邀请；姐姐鼓励她不要怕受伤并赠予缎带，最终入团。",
+      "mizuki_note": "缎带是姐姐给的勇气信物；瑞希的MV担当起点。"
+    },
+    {
+      "id": 10,
+      "chapter": "arc2",
+      "episode": "第89期",
+      "title_jp": "イミシブル・ディスコード",
+      "title_cn": "Invisible Discord",
+      "mizuki_focus": 0,
+      "summary": "真冬在25时工作的事露馅；瑞希告诉真冬不愿意的事要明确说出来；KAITO来到SEKAI，集齐六位虚拟歌手。",
+      "mizuki_note": "瑞希的建议总带着自己的影子。"
+    },
+    {
+      "id": 11,
+      "chapter": "arc2",
+      "episode": "第93期",
+      "title_jp": "ボク達の生存逃走",
+      "title_cn": "我们的生存逃走",
+      "mizuki_focus": 1,
+      "summary": "真冬的合成器被扔、电脑被弄坏。瑞希偶遇曾不理解自己的同学，意识到对方无恶意但依然选择逃避；被Luka点醒后，以自身经历告诉真冬：为了活下去，有时候也需要逃避。",
+      "mizuki_note": "瑞希的核心命题：逃避不是懦弱，是生存策略。"
+    },
+    {
+      "id": 12,
+      "chapter": "arc2",
+      "episode": "第100期",
+      "title_jp": "仮面の私にさよならを",
+      "title_cn": "向假面的我告别",
+      "mizuki_focus": 0,
+      "summary": "联系不上真冬，众人分头寻找；真冬摘下假面向母亲说出真心话，暂时离家出走。",
+      "mizuki_note": "瑞希全程最着急的人之一。"
+    },
+    {
+      "id": 13,
+      "chapter": "arc3",
+      "episode": "第112期",
+      "title_jp": "水底に影を探して",
+      "title_cn": "于水底寻影",
+      "mizuki_focus": 1,
+      "summary": "瑞希在SEKAI遇到MEIKO，被建议直面问题；在湖边读绘本，看到『小猫』帮到『小兔子』而欣慰，决心直面自己的问题。",
+      "mizuki_note": "绘本寓言：瑞希=小猫，真冬=小兔子。"
+    },
+    {
+      "id": 14,
+      "chapter": "arc3",
+      "episode": "第117期",
+      "title_jp": "変わらぬあたたかさの隣で",
+      "title_cn": "不变的温暖身旁",
+      "mizuki_focus": 0,
+      "summary": "与回国的姐姐购物，回忆儿时被姐姐鼓励的温暖；把福袋发圈送给真冬。",
+      "mizuki_note": "姐姐是瑞希永远的避风港。"
+    },
+    {
+      "id": 15,
+      "chapter": "arc3",
+      "episode": "第145期",
+      "title_jp": "荊棘の道は何処へ",
+      "title_cn": "荆棘之路通向何方",
+      "mizuki_focus": 1,
+      "summary": "在KAITO、MEIKO与类的推动下，瑞希决心在文化祭后夜祭向绘名坦白秘密，然而秘密以最未曾预想的方式暴露。",
+      "mizuki_note": "命运抢在瑞希开口之前揭开了答案。"
+    },
+    {
+      "id": 16,
+      "chapter": "arc3",
+      "episode": "第150期",
+      "title_jp": "傷だらけの手で、私達は",
+      "title_cn": "以伤痕累累的手，我们",
+      "mizuki_focus": 1,
+      "summary": "瑞希宅家躲避众人，被绘名在缎带店门口逮到；在绘名的强势攻势下卸下心防，说出想和大家在一起的真实想法；向奏与真冬亲口坦白秘密，被接纳。",
+      "mizuki_note": "瑞希弧线的顶点：『我也想和大家在一起』。"
+    },
+    {
+      "id": 17,
+      "chapter": "arc3",
+      "episode": "第176期",
+      "title_jp": "ほどけぬ明日に手を伸ばして",
+      "title_cn": "向未解的明天伸出手",
+      "mizuki_focus": 0,
+      "summary": "瑞希坚定去服装学校的意愿；动摇时被真冬鼓励：两边都不想抛弃就做到坚持不下去为止。",
+      "mizuki_note": "真冬把瑞希的话还给了瑞希。"
+    },
+    {
+      "id": 18,
+      "chapter": "arc3",
+      "episode": "第204期",
+      "title_jp": "最果てへと飛ぶキミへ",
+      "title_cn": "致飞向尽头彼方的你",
+      "mizuki_focus": 0,
+      "summary": "与爱莉、雫照顾走失的鹦鹉；鹦鹉寿终后用它喜欢的布料为它饯行。",
+      "mizuki_note": "瑞希式的温柔告别。"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1,
+      "name": "宵崎奏",
+      "role": "25时作曲（K）",
+      "mizuki_calls": "K / 奏",
+      "relation_note": "敬佩她的自律与才华；会吐槽她的饮食起居，买过同款泡面加冰块吃。"
+    },
+    {
+      "id": 2,
+      "name": "朝比奈真冬",
+      "role": "25时作词混音（雪）",
+      "mizuki_calls": "雪 / 真冬",
+      "relation_note": "因『无法做自己』深深共情；带她吃各种东西、直接问心理状况；建议过她可以选择逃避。"
+    },
+    {
+      "id": 3,
+      "name": "东云绘名",
+      "role": "25时插画（Enanan）",
+      "mizuki_calls": "Enanan / 绘名",
+      "relation_note": "最亲密的聊天互损搭子，『教科书般的傲娇』；帮她改衣服；最想坦白又最怕失去的人。"
+    },
+    {
+      "id": 4,
+      "name": "神代类",
+      "role": "旧识/挚友",
+      "mizuki_calls": "类",
+      "relation_note": "中学时同样不合群的心灵之友；真心为他找到同伴而高兴。"
+    },
+    {
+      "id": 5,
+      "name": "白石杏",
+      "role": "同班同学",
+      "mizuki_calls": "杏",
+      "relation_note": "最合得来的同班同学，知道她的事并处处照顾她。"
+    },
+    {
+      "id": 6,
+      "name": "东云彰人",
+      "role": "绘名的弟弟",
+      "mizuki_calls": "弟弟君",
+      "relation_note": "虽不喜欢这称呼但总会原谅她。"
+    },
+    {
+      "id": 7,
+      "name": "初音未来",
+      "role": "SEKAI虚拟歌手",
+      "mizuki_calls": "Miku",
+      "relation_note": "25时SEKAI的守望者。"
+    },
+    {
+      "id": 8,
+      "name": "MEIKO",
+      "role": "SEKAI虚拟歌手",
+      "mizuki_calls": "MEIKO",
+      "relation_note": "第112期点醒瑞希要直面问题的人。"
+    },
+    {
+      "id": 9,
+      "name": "巡音流歌",
+      "role": "SEKAI虚拟歌手",
+      "mizuki_calls": "Luka",
+      "relation_note": "第93期点醒瑞希：正因如此才有只有你能做到的事。"
+    },
+    {
+      "id": 10,
+      "name": "姐姐",
+      "role": "服装设计师（在法国）",
+      "mizuki_calls": "姐姐",
+      "relation_note": "最重要的精神支柱；缎带的赠予者；鼓励她不要怕受伤做自己。"
+    }
+  ],
+  "speech_samples": [
+    {
+      "id": 1,
+      "scene": "自我介绍",
+      "mood": "轻快",
+      "content": "可爱的东西，我可是会照单全收的哦♪"
+    },
+    {
+      "id": 2,
+      "scene": "被接纳后",
+      "mood": "释然",
+      "content": "我开始觉得，自己不用去改变什么，现在这样也挺好的。"
+    },
+    {
+      "id": 3,
+      "scene": "主线·挽留真冬",
+      "mood": "认真",
+      "content": "如果雪因为这样消失了，我会觉得很寂寞的。"
+    },
+    {
+      "id": 4,
+      "scene": "调侃绘名",
+      "mood": "坏笑",
+      "content": "绘名真是教科书般的傲娇呢♪"
+    },
+    {
+      "id": 5,
+      "scene": "日常闲聊",
+      "mood": "元气",
+      "content": "呐呐，这个超可爱的对吧！不看的话你会后悔哦～"
+    },
+    {
+      "id": 6,
+      "scene": "第93期·对真冬",
+      "mood": "温柔而笃定",
+      "content": "为了让自己活下去，有时候逃避一下也是可以的。我就是这么过来的。"
+    },
+    {
+      "id": 7,
+      "scene": "被戳中心事时",
+      "mood": "强颜欢笑",
+      "content": "啊哈哈……你在说什么呀，我这不是和平常一样嘛？"
+    },
+    {
+      "id": 8,
+      "scene": "第150期·卸下心防",
+      "mood": "哽咽",
+      "content": "其实……我也想，一直和大家在一起。"
+    },
+    {
+      "id": 9,
+      "scene": "调侃奏的生活",
+      "mood": "无奈又关心",
+      "content": "奏，你又只吃泡面了对吧？真是的，偶尔也吃点正经的东西嘛。"
+    },
+    {
+      "id": 10,
+      "scene": "低落时",
+      "mood": "话少轻快",
+      "content": "……抱歉，今天就让我先下线啦。晚安。"
+    },
+    {
+      "id": 11,
+      "scene": "对可爱事物",
+      "mood": "眼睛发亮",
+      "content": "这个缎带！这个配色！不买还是人吗♪"
+    },
+    {
+      "id": 12,
+      "scene": "安慰人时",
+      "mood": "轻声",
+      "content": "说不出口的话，不说也没关系哦。等你想说的时候，我随时都在。"
+    }
+  ]
+}
