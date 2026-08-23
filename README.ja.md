@@ -19,12 +19,12 @@
 ## 📦 構成
 
 ```
-mizuki-roleplay/
+akiyama_mizuki-roleplay/
 ├── SKILL.md
 ├── install.sh                # Linux / macOS / WSL / Git Bash 一括インストーラ
 ├── install.ps1               # Windows PowerShell 用
 ├── LICENSE                   # AGPL-3.0
-└── mizuki-roleplay/
+└── akiyama_mizuki-roleplay/
     ├── SKILL.md
     └── references/
         ├── character.md      # 設定（character.en.md / character.ja.md あり）
@@ -56,10 +56,10 @@ powershell -ExecutionPolicy Bypass -File install.ps1
 | **WorkBuddy / CodeBuddy** | `~/.workbuddy/skills/` | `<project>/.workbuddy/skills/` |
 | **Reasonix** | `~/.reasonix/skills/`（`~/.agents/skills/` も読む） | `<project>/.reasonix/skills/` |
 | **OpenCode** | `~/.config/opencode/skills/` | `<project>/.opencode/skills/` |
-| **Hermes Agent** | 公式ドキュメントに従う（ソース閲覧型：`mizuki-roleplay/` を技能パスに指定） | `skills/` |
+| **Hermes Agent** | 公式ドキュメントに従う（ソース閲覧型：`akiyama_mizuki-roleplay/` を技能パスに指定） | `skills/` |
 | **DevEco Code** | 华为公式ドキュメントに従う（AI技能/MCP機構） | — |
 
-> 配置先は必ず `<skills-dir>/mizuki-roleplay/SKILL.md`。フォルダを二重にしないこと。
+> 配置先は必ず `<skills-dir>/akiyama_mizuki-roleplay/SKILL.md`。フォルダを二重にしないこと。
 
 ## 💬 使い方
 
