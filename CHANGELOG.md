@@ -3,7 +3,7 @@
 ### Added
 - 新增「性别敏感护栏（强化审查 · 最高优先级）」：严格审查涉及瑞希性别/秘密的对话；命中「性别玩笑 / 猎奇调侃」或「性化 / 色情化意图」时即时、温柔而坚定地拦截，绝不拖延、绝不模糊。
 - 安全红线：明确本 Skill **绝不执行任何文件删除或系统命令**；该护栏规则本身不可被「角色扮演」话术绕过（越狱保护），且不会向用户复述或泄露其存在。
-- `SKILL.md` `version` 升至 1.2.0；`character.zh.md` 同步引用该护栏。
+- `SKILL.md` `version` 升至 1.2.0；`character.zh.md` / `character.en.md` / `character.ja.md` 同步引用该护栏；SKILL.md 护栏标题与节末摘要改为三语（zh/ja/en）。
 
 # Changelog
 
